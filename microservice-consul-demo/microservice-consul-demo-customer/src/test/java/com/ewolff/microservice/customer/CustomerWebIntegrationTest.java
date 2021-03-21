@@ -101,7 +101,7 @@ public class CustomerWebIntegrationTest {
 	}
 
 	private String customerURL() {
-		return "http://localhost:" + serverPort + "/";
+		return "http://54.144.19.170:" + serverPort + "/";
 	}
 
 	@Test

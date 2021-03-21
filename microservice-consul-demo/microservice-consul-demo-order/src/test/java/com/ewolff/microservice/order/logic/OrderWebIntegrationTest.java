@@ -78,7 +78,7 @@ public class OrderWebIntegrationTest {
 	}
 
 	private String orderURL() {
-		return "http://localhost:" + serverPort;
+		return "http://54.144.19.170:" + serverPort;
 	}
 
 	@Test

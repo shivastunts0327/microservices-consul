@@ -51,7 +51,7 @@ public class CatalogWebIntegrationTest {
 	}
 
 	private String catalogURL() {
-		return "http://localhost:" + serverPort;
+		return "http://54.144.19.170:" + serverPort;
 	}
 
 	@Test
