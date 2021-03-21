@@ -13,7 +13,7 @@ services:
      - zipkin
     environment:
       SPRING_ZIPKIN_ENABLED: "true"
-      SPRING_ZIPKIN_BASE_URL: "http://zipkin:9411/"
+      SPRING_ZIPKIN_BASE_URL: "http://54.144.19.170/"
   catalog:
     build: ../microservice-consul-demo/microservice-consul-demo-catalog
     links:
@@ -21,7 +21,7 @@ services:
      - zipkin
     environment:
       SPRING_ZIPKIN_ENABLED: "true"
-      SPRING_ZIPKIN_BASE_URL: "http://zipkin:9411/"
+      SPRING_ZIPKIN_BASE_URL: "http://54.144.19.170/"
   order:
     build: ../microservice-consul-demo/microservice-consul-demo-order
     links:
@@ -29,7 +29,7 @@ services:
      - zipkin
     environment:
       SPRING_ZIPKIN_ENABLED: "true"
-      SPRING_ZIPKIN_BASE_URL: "http://zipkin:9411/"
+      SPRING_ZIPKIN_BASE_URL: "http://54.144.19.170/"
   apache:
     build: apache
     links:
